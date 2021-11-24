@@ -158,7 +158,7 @@ CREATE TABLE `tblcomplaints` (
   `regDate` timestamp NULL DEFAULT current_timestamp(),
   `status` varchar(50) DEFAULT NULL,
   `lastUpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;
 
 --
 -- Dumping data for table `tblcomplaints`
